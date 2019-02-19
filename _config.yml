@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Spandana Rao Lokalapu"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Spandana Rao Lokalapu"
+description              : "Story Time"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,51 +106,51 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Spandana Rao Lokalapu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Trying to use story telling skills to tell stories about data"
+  location         : "Stamford, CT"
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "slokalapu@gmail.com"
       # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+  #  - label: "Website"
+  #    icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "LinkedIn"
+      icon: "https://www.linkedin.com/in/spandanaraolokalapu/"
       # url: "https://twitter.com/"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "https://www.facebook.com/spandana.rao"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "https://github.com/slokalapu"
       # url: "https://github.com/"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "https://www.instagram.com/spalalalalaa/"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "LinkedIn"
+      icon: "https://www.linkedin.com/in/spandanaraolokalapu/"
       # url:
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "https://www.facebook.com/spandana.rao"
       # url:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "https://github.com/slokalapu"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+  #  - label: "GitLab"
+  #    icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+  #  - label: "Bitbucket"
+  #    icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "https://www.instagram.com/spalalalalaa/"
       # url:
 
 
@@ -292,4 +292,12 @@ defaults:
       read_time: true
       comments: # true
       share: true
+
+    # Pages
+    - scope:
+        path: ""
+        type: Pages
+      values:
+        layout: single
+        author_profile: true 
       related: true
