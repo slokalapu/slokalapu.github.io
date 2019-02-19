@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Spandana Rao Lokalapu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/dp.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Trying to use story telling skills to tell stories about data"
   location         : "Stamford, CT"
   email            :
@@ -293,7 +293,7 @@ defaults:
       comments: # true
       share: true
 
-    # Pages
+    # -pages
     - scope:
         path: ""
         type: Pages
